@@ -1,9 +1,12 @@
-<mxfile host="app.diagrams.net" modified="2023-03-04T08:02:13.452Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="eGxhx8VMKLWf0-71uu9t" version="20.8.22" type="github">
+<mxfile host="app.diagrams.net" modified="2023-03-04T08:08:17.309Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="k4agdx41bqKc7rjhyEUK" version="20.8.22" type="github">
   <diagram name="Page-1" id="6ijTnedWCegfjatEbXjn">
     <mxGraphModel dx="1050" dy="581" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="UvUQzP8dR3wDCH03lXoq-33" value="" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="910" y="460" width="220" height="100" as="geometry" />
+        </mxCell>
         <mxCell id="UvUQzP8dR3wDCH03lXoq-1" value="AWS Cloud" style="points=[[0,0],[0.25,0],[0.5,0],[0.75,0],[1,0],[1,0.25],[1,0.5],[1,0.75],[1,1],[0.75,1],[0.5,1],[0.25,1],[0,1],[0,0.75],[0,0.5],[0,0.25]];outlineConnect=0;gradientColor=none;html=1;whiteSpace=wrap;fontSize=12;fontStyle=0;container=1;pointerEvents=0;collapsible=0;recursiveResize=0;shape=mxgraph.aws4.group;grIcon=mxgraph.aws4.group_aws_cloud_alt;strokeColor=#232F3E;fillColor=none;verticalAlign=top;align=left;spacingLeft=30;fontColor=#232F3E;dashed=0;" vertex="1" parent="1">
           <mxGeometry x="80" y="122" width="690" height="570" as="geometry" />
         </mxCell>
@@ -52,6 +55,12 @@
               <mxPoint x="410" y="320" />
             </Array>
           </mxGeometry>
+        </mxCell>
+        <mxCell id="UvUQzP8dR3wDCH03lXoq-17" value="" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#4D27AA;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.route_table;shadow=1;" vertex="1" parent="1">
+          <mxGeometry x="890" y="284" width="78" height="76" as="geometry" />
+        </mxCell>
+        <mxCell id="UvUQzP8dR3wDCH03lXoq-31" value="Route table&lt;br&gt;destination&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;target&lt;br&gt;10.0.0.0/16&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; local&amp;nbsp;&lt;br&gt;0.0.0.0/0&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;igw-id&amp;nbsp;" style="text;strokeColor=none;fillColor=none;html=1;fontSize=18;fontStyle=1;verticalAlign=middle;align=center;" vertex="1" parent="1">
+          <mxGeometry x="960" y="490" width="100" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
