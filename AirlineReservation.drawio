@@ -1,9 +1,24 @@
-<mxfile host="app.diagrams.net" modified="2023-04-01T19:24:29.338Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" version="21.1.2" etag="uLkZEi2e26uXobIoxmh7" type="github">
+<mxfile host="app.diagrams.net" modified="2023-04-01T19:42:53.902Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="D4xYj7DdNR0am_BUU49f" version="21.1.2" type="github">
   <diagram name="Page-1" id="zZewco96g88wtQCTiWM7">
-    <mxGraphModel>
+    <mxGraphModel dx="1050" dy="523" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="6-gSjD5hY4xRekWxIjLO-1" value="&lt;font face=&quot;Times New Roman&quot; style=&quot;font-size: 24px;&quot;&gt;Airline Reservation ER diagram&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="300" y="51" width="340" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="6-gSjD5hY4xRekWxIjLO-2" value="Passenger" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="250" y="270" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="6-gSjD5hY4xRekWxIjLO-3" value="Attribute" style="ellipse;whiteSpace=wrap;html=1;align=center;fontStyle=4;" vertex="1" parent="1">
+          <mxGeometry x="650" y="200" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="6-gSjD5hY4xRekWxIjLO-4" value="Attribute" style="ellipse;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="140" y="180" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="6-gSjD5hY4xRekWxIjLO-5" value="Attribute" style="ellipse;whiteSpace=wrap;html=1;align=center;fontStyle=4;" vertex="1" parent="1">
+          <mxGeometry x="270" y="150" width="100" height="40" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
