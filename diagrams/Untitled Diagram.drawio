@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-04-04T18:23:40.317Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="HtjCcTW-Jj_GCKd6ilQd" version="21.1.4" type="github">
+<mxfile host="app.diagrams.net" modified="2023-04-04T19:45:59.139Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="t-DIO5nx0Sdxt61PGQDT" version="21.1.4" type="github">
   <diagram name="Page-1" id="FFiRweq9sxM33hLRRDQR">
-    <mxGraphModel dx="2750" dy="1681" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="3600" dy="1681" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -14,16 +14,46 @@
           <mxGeometry x="-800" y="40" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="pU8UCUsouBPn-E5W2F4p-4" value="Payment" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-1640" y="200" width="120" height="60" as="geometry" />
+          <mxGeometry x="-1640" y="338" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="pU8UCUsouBPn-E5W2F4p-5" value="Booking status" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-1200" y="200" width="120" height="60" as="geometry" />
+          <mxGeometry x="-1200" y="338" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="pU8UCUsouBPn-E5W2F4p-6" value="Airplane" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-800" y="-140" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="pU8UCUsouBPn-E5W2F4p-7" value="Airline" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-800" y="-300" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="pU8UCUsouBPn-E5W2F4p-8" value="payment status" style="shape=ext;double=1;rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-1780" y="478" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="pU8UCUsouBPn-E5W2F4p-9" value="payment method" style="shape=ext;double=1;rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-1510" y="480" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="pU8UCUsouBPn-E5W2F4p-10" value="" style="shape=partialRectangle;whiteSpace=wrap;html=1;bottom=1;right=1;left=1;top=0;fillColor=none;routingCenterX=-0.5;direction=west;" vertex="1" parent="1">
+          <mxGeometry x="-1720" y="440" width="280" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="pU8UCUsouBPn-E5W2F4p-11" value="" style="endArrow=none;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="pU8UCUsouBPn-E5W2F4p-10">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-1630" y="448" as="sourcePoint" />
+            <mxPoint x="-1580" y="398" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pU8UCUsouBPn-E5W2F4p-12" value="Entity" style="whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="-1940" y="380" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="pU8UCUsouBPn-E5W2F4p-13" value="" style="edgeStyle=entityRelationEdgeStyle;fontSize=12;html=1;endArrow=ERzeroToMany;startArrow=ERmandOne;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="-1880" y="700" as="sourcePoint" />
+            <mxPoint x="-1780" y="600" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pU8UCUsouBPn-E5W2F4p-14" value="" style="edgeStyle=entityRelationEdgeStyle;fontSize=12;html=1;endArrow=ERzeroToMany;endFill=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="-2040" y="700" as="sourcePoint" />
+            <mxPoint x="-1940" y="600" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
